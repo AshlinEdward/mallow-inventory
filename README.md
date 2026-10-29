@@ -171,8 +171,21 @@ The current test suite covers:
 - Order confirmation is simulated through a queued job and application logs; no external email service is required.
 
 ## Prompt Log
+## Prompt Log
 
-Screenshots or a record of prompts used during development should be added to the `prompts/` directory, as required by the assignment.
+Development assistance was used to plan, implement, test, and document the Laravel inventory and order management application.
+
+Topics covered:
+
+1. Database schema design, migrations, models, and relationships.
+2. API endpoints for products, orders, customers, and low-stock products.
+3. Order validation, tax calculation, stock deduction, and transaction safety.
+4. Queued order confirmation logging.
+5. Feature tests for successful order creation, insufficient stock, and overselling prevention.
+6. Dashboard, inventory, orders, and customer pages.
+7. README documentation and Git/GitHub setup.
+
+The prompts and responses were used as development assistance, and the application was tested locally.
 
 ## Walkthrough
 
